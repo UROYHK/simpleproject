@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .form-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .form-box h2 {
+    margin-bottom: 20px;
+    color: #2e7d32;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form-box button {
+    width: 100%;
+    padding: 12px;
+    background: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-box button:hover {
+    background: #558b2f;
+  }
+  
+  .form-box p {
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .form-box a {
+    color: #2e7d32;
+    text-decoration: none;
+  }
+  
+  .form-box a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main page plant content */
+  .plant-info {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .plant-info h3 {
+    color: #388e3c;
+    margin-bottom: 10px;
+  }
+  
+  .plant-info ul {
+    list-style-type: square;
+    color: #4e342e;
+    padding-left: 20px;
+  }
+  
+  .plant-info ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Profile card styling */
+  .profile-card {
+    background: #e8f5e9;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .profile-card h3 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card p {
+    font-size: 16px;
+    color: #333;
+  }
+  

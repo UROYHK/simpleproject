@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Main Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin(); loadProfile();">
+  <div class="container">
+    <div class="form-box">
+      <h2>🌿 Welcome to The Green World! 🌿</h2>
+      <p>You’re successfully logged in.</p>
+
+      <div class="profile-card">
+        <h3>👤 Your Profile</h3>
+        <p><strong>Username:</strong> <span id="profileUsername"></span></p>
+      </div>
+
+      <div class="plant-info">
+        <h3>🌱 About Plants:</h3>
+        <ul>
+          <li>Plants produce oxygen and absorb carbon dioxide, keeping our air clean.</li>
+          <li>Trees are Earth's natural air conditioners — they lower city temperatures.</li>
+          <li>There are over 390,000 plant species known to science!</li>
+          <li>Some plants like Aloe Vera have medicinal properties for skin and health.</li>
+          <li>Bamboo is the fastest-growing plant on Earth — up to 3 feet in 24 hours!</li>
+        </ul>
+      </div>
+
+      <button onclick="logout()">Logout</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
